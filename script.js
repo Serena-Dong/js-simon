@@ -10,7 +10,7 @@ const now = new Date()
 const msNow = now.getTime();
 
 //Date di natale
-const xmasDate = new Date ('12-25-2022');
+const xmasDate = new Date ('12-21-2022');
 const msXmasDate = xmasDate.getTime ();
 
 //Quanto manca
@@ -36,4 +36,9 @@ secondsCount.innerText = secondsLeft;
 
 timeLeft();
 
-setInterval (timeLeft, 1000);
+const countdown = setInterval (timeLeft, 1000);
+
+function stopFunction() {
+    clearTimeout(countdown){
+    }
+}
