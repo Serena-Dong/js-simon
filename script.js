@@ -1,6 +1,6 @@
 //ELEMENTI DEL DOM
 const daysCount = document.getElementById('days');
-const hoursCount = document.getElementById('hou rs');
+const hoursCount = document.getElementById('hours');
 const minutesCount = document.getElementById('minutes');
 const secondsCount = document.getElementById('seconds');
 
